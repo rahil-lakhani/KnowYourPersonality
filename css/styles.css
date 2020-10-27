@@ -489,13 +489,13 @@ footer em {
     /****** Back to Start ******/
 
     .back-to-start-btn {
+        height: 27px;
         top: 20px;
     }
 
     /****** Footer ******/
 
     footer {
-        height: 27px;
         top: 90px;
     }
 
