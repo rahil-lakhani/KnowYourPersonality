@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> Know Your Personality - By Rahil </title>
+
+    <!--Icon-->
+    <link rel="icon" type="image/png" sizes="64x64" href="Images/favicon-64x64.png">
+
+    <!--Styling-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main class="wrapper">
+
+        <!-- Start Up Section -->
+
+        <section class="start-up">
+
+            <h1>Would you like to know a bit about your personality?</h1>
+
+            <div class="start-btn-section">
+
+                <button type="button" class="start-btn start-btn-yes">
+                    Yes
+                </button>
+                <button type="button" class="start-btn start-btn-no">
+                    No
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- Yes Button Pressed - Animal Name Section -->
+
+        <section class="yes-button visibility">
+
+            <h1>Type in the Name of the Animal you like the most & hit Enter!</h1>
+
+            <div class="animal-name-section">
+
+                <form>
+
+                    <input type="text" list="animal-name" placeholder="Animal Name:" name="Animal Name:"
+                        autocomplete="off">
+                    <button> Enter </button>
+
+                </form>
+
+                <img src="./Images/Type In & Hit Enter.svg" alt="Type In Image & Hit Enter Image">
+
+            </div>
+
+        </section>
+
+        <!-- Enter Button Pressed - Personality Traits -->
+
+        <section class="matched-animal-name visibility">
+
+            <h1>Your Personality Traits are:</h1>
+
+            <div class="personality-traits-section">
+
+                <img src="./Images/Personality Traits.png" alt="Personality Traits Image">
+                <ul></ul>
+
+            </div>
+
+            <p class="disclaimer-btn">Disclaimer</p>
+
+        </section>
+
+        <!-- Disclaimer Section -->
+
+        <section class="disclaimer-section visibility">
+
+            <div class="disclaimer">
+
+                <h1>This is just for fun!</h1>
+                <h1>I believe, we end up liking the things that matches our characteristics the most, & this is how I
+                    could guess. Pardon me if I am wrong!</h1>
+
+            </div>
+
+        </section>
+
+        <!-- Yes Button Pressed - No Matching Animal -->
+
+        <section class="unmatched-animal-name visibility">
+
+            <div class="unique-personality-section">
+
+                <h1>Like you, your Personality is unique! Only you can talk about it!</h1>
+                <img src="./Images/Unique Personality.svg" alt="Unique Personality Image">
+
+            </div>
+
+        </section>
+
+        <!-- No Button Pressed - You Know It All Section -->
+
+        <section class="no-button visibility">
+
+            <div class="know-it-all-section">
+
+                <h1>Wow! You know it all you need to know!</h1>
+                <img src="./Images/Know it All.svg" alt="Know It All Image">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Back to Start Button -->
+
+    <div class="back-to-start-btn visibility">
+        Back to Start!
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <p> Coded by <strong><em> <a href="https://github.com/rahil-lakhani" target="_blank"> Rahil Lakhani </a>
+                </em></strong>. </p>
+    </footer>
+
+    <!-- javaScript -->
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
